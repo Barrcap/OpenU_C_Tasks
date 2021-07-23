@@ -1,0 +1,169 @@
+Welcome to Barr's interactive pocket calculator!
+
+Enter command:
+You entered:
+print_set SETA
+The set is empty!
+Enter command:
+You entered:
+print_set SETB
+The set is empty!
+Enter command:
+You entered:
+print_set SETC
+The set is empty!
+Enter command:
+You entered:
+print_set SETD
+The set is empty!
+Enter command:
+You entered:
+print_set SETE
+The set is empty!
+Enter command:
+You entered:
+print_set SETF
+The set is empty!
+Enter command:
+You entered:
+read_set SETA, 45, 23, 6, 7, 4, 3, 75 ,45, 34, -1
+Enter command:
+You entered:
+print_set SETA
+The set contains the members:
+3 4 6 7 23 34 45 75 
+Enter command:
+You entered:
+read_set SETB, 5, 4, 3, 2, 78, 45, 43, -1
+Enter command:
+You entered:
+print_set SETB
+The set contains the members:
+2 3 4 5 43 45 78 
+Enter command:
+You entered:
+read_set SETC,100,105,101,103,104,-1
+Enter command:
+You entered:
+print_set SETC
+The set contains the members:
+100 101 103 104 105 
+Enter command:
+You entered:
+read_set SETC,127,0,3,126,127,0,-1
+Enter command:
+You entered:
+print_set SETC
+The set contains the members:
+0 3 126 127 
+Enter command:
+You entered:
+read_set SETC,-1
+Enter command:
+You entered:
+print_set SETC
+The set is empty!
+Enter command:
+You entered:
+read_set SETD, -1
+Enter command:
+You entered:
+print_set SETD
+The set is empty!
+Enter command:
+You entered:
+read_set SETC , 110 , 111, 112 , -1
+Enter command:
+You entered:
+print_set SETC
+The set contains the members:
+110 111 112 
+Enter command:
+You entered:
+union_set SETA, SETB, SETD
+Enter command:
+You entered:
+print_set SETD
+The set contains the members:
+2 3 4 5 6 7 23 34 43 45 75 78 
+Enter command:
+You entered:
+intersect_set SETA, SETB, SETE
+Enter command:
+You entered:
+print_set SETE
+The set contains the members:
+3 4 45 
+Enter command:
+You entered:
+sub_set SETA, SETB, SETF
+Enter command:
+You entered:
+print_set SETF
+The set contains the members:
+6 7 23 34 75 
+Enter command:
+You entered:
+symdiff_set SETA, SETB, SETF
+Enter command:
+You entered:
+print_set SETF
+The set contains the members:
+2 5 6 7 23 34 43 75 78 
+Enter command:
+You entered:
+intersect_set SETA, SETC, SETD
+Enter command:
+You entered:
+print_set SETD
+The set is empty!
+Enter command:
+You entered:
+union_set SETB, SETB, SETE
+Enter command:
+You entered:
+print_set SETE
+The set contains the members:
+2 3 4 5 43 45 78 
+Enter command:
+You entered:
+intersect_set SETB, SETA, SETB
+Enter command:
+You entered:
+print_set SETB
+The set contains the members:
+3 4 45 
+Enter command:
+You entered:
+union_set SETA, SETC, SETC
+Enter command:
+You entered:
+print_set SETC
+The set contains the members:
+3 4 6 7 23 34 45 75 110 111 112 
+Enter command:
+You entered:
+symdiff_set SETC, SETA, SETC
+Enter command:
+You entered:
+print_set SETC
+The set contains the members:
+110 111 112 
+Enter command:
+You entered:
+sub_set SETC,SETC,SETC
+Enter command:
+You entered:
+print_set SETC
+The set is empty!
+Enter command:
+You entered:
+union_set SETF , SETC , SETF
+Enter command:
+You entered:
+print_set SETF
+The set contains the members:
+2 5 6 7 23 34 43 75 78 
+Enter command:
+You entered:
+stop

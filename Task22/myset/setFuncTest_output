@@ -1,0 +1,97 @@
+Welcome to Barr's interactive pocket calculator!
+
+Enter command:
+You entered:
+print_set SETA
+The set is empty!
+Enter command:
+You entered:
+read_set SETA,1,2,3,4,5,6,-1
+Enter command:
+You entered:
+print_set SETA
+The set contains the members:
+1 2 3 4 5 6 
+Enter command:
+You entered:
+read_set SETB,4,5,6,7,8,9,10,-1
+Enter command:
+You entered:
+print_set SETB
+The set contains the members:
+4 5 6 7 8 9 10 
+Enter command:
+You entered:
+union_set SETA,SETB,SETC
+Enter command:
+You entered:
+print_set SETA
+The set contains the members:
+1 2 3 4 5 6 
+Enter command:
+You entered:
+print_set SETB
+The set contains the members:
+4 5 6 7 8 9 10 
+Enter command:
+You entered:
+print_set SETC
+The set contains the members:
+1 2 3 4 5 6 7 8 9 10 
+Enter command:
+You entered:
+intersect_set SETA,SETB,SETD
+Enter command:
+You entered:
+print_set SETA
+The set contains the members:
+1 2 3 4 5 6 
+Enter command:
+You entered:
+print_set SETB
+The set contains the members:
+4 5 6 7 8 9 10 
+Enter command:
+You entered:
+print_set SETD
+The set contains the members:
+4 5 6 
+Enter command:
+You entered:
+sub_set SETA,SETB,SETE
+Enter command:
+You entered:
+print_set SETA
+The set contains the members:
+1 2 3 4 5 6 
+Enter command:
+You entered:
+print_set SETB
+The set contains the members:
+4 5 6 7 8 9 10 
+Enter command:
+You entered:
+print_set SETE
+The set contains the members:
+1 2 3 
+Enter command:
+You entered:
+symdiff_set SETA,SETB,SETF
+Enter command:
+You entered:
+print_set SETA
+The set contains the members:
+1 2 3 4 5 6 
+Enter command:
+You entered:
+print_set SETB
+The set contains the members:
+4 5 6 7 8 9 10 
+Enter command:
+You entered:
+print_set SETF
+The set contains the members:
+1 2 3 7 8 9 10 
+Enter command:
+You entered:
+stop

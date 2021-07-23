@@ -1,0 +1,68 @@
+Welcome to Barr's interactive pocket calculator!
+
+Enter command:
+You entered:
+read_set SETG, 3, 6, 5, 4, 4, -1
+Undefined set name!
+Enter command:
+You entered:
+read_set setA, 3, 6, 5, 4, 4, -1
+Undefined set name!
+Enter command:
+You entered:
+do_it SETA, SETB, SETC
+Undefined command name!
+Enter command:
+You entered:
+UNION_set SETA, SETB, SETC
+Undefined command name!
+Enter command:
+You entered:
+read_set SETB, 45, 567, 34, -1
+Invalid set member - value out of range!
+Enter command:
+You entered:
+read_set SETA, 45, 56, 45, 34
+List of set members not terminated correctly!
+Enter command:
+You entered:
+read_set SETA, 45 ,-3, 2, 45, 34, -1
+Invalid set member - value out of range!
+Enter command:
+You entered:
+read_set SETA, 45, 2, xyz, 34, -1
+Invalid set member - not an integer!
+Enter command:
+You entered:
+read_set SETA, 45, 2, 24.0, 34, -1
+Invalid set member - not an integer!
+Enter command:
+You entered:
+union_set SETC, SETA
+Missing parameter!
+Enter command:
+You entered:
+union_set SETC, SETA, SETB,
+Illegal comma at end of input!
+Enter command:
+You entered:
+print_set SETC, SETD
+Extraneous text after end of command
+Enter command:
+You entered:
+sub_set SETF, , SETD, SETA
+Multiple consecutive commas!
+Enter command:
+You entered:
+intersect_set SETF SETD SETA
+Undefined set name!
+Enter command:
+You entered:
+symdiff_set, SETF, SETB, SETA
+Undefined command name!
+Enter command:
+You entered:
+sto
+Undefined command name!
+Enter command:
+OH SNAP! the program terminated not via 'stop' command!
